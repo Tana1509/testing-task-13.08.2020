@@ -1,0 +1,12 @@
+@mixin btn {
+  text-transform: uppercase;
+  background-color: transparent;
+  padding: 10px;
+  letter-spacing: 0.2em;
+  transition: 0.5s;
+  border: 1px solid #000000;
+  &:hover {
+    background-color: #5555556e;
+    color: #ffffff;
+  }
+}
